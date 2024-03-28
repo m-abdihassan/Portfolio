@@ -1,0 +1,41 @@
+#Projects{
+    margin: 0 auto;
+    min-height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.projectstitle{
+ margin: 1rem 0;
+ font-size: 3rem;
+
+}
+.projectsDescr{
+ font-weight: 300;
+ font-size: 1rem;
+}
+.projectsimgs{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 100vw;
+   max-width: 65rem;
+}
+.projectsimg{
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
+.projectsbtn{
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: whitesmoke;
+    font-size: 1rem;
+}

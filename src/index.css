@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  background: #c0c5e1;
+}
